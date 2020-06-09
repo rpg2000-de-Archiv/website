@@ -6,3 +6,5 @@ Da es sich bei dem Quartier im ein großes Stück Makergeschichte handelt, haben
 Warum nicht einfach eine HTTrack oder Archive.org Wayback kopie? Weil wir so nicht suchen können, sortierungen nicht immer funktionieren und vieles mehr.
 
 Lasst euch überraschen.
+
+Es wird keine neuen Content geben. Wir heben die Seite im Backend auf eine aktuelle Stufe, werden aber nichts am Layout sowie Content ändern.
