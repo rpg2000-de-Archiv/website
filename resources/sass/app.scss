@@ -1,8 +1,253 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+body {
+    background-color: #EDEDED;
+    color: #404A61;
+    font-family: Tahoma, serif;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapsed;
+    font-size: 8pt;
+}
+
+td.oben {
+    border: thin solid #404A61;
+    padding: 0;
+    border-width: 1px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    background-color: #91BAE6;
+}
+
+td.rechts {
+    border: thin solid #404A61;
+    padding: 0px;
+    border-width: 0px;
+}
+
+td.head {
+    border: thin solid #404A61;
+    padding: 9px;
+    border-width: 1px;
+    border-top-width: 0px;
+    background-color: #91BAE6;
+}
+
+td.komplett {
+    border: thin solid #404A61;
+    padding: 0px;
+    border-width: 1px;
+    background-color: #91BAE6;
+}
+
+td.navigation {
+    border: thin solid #404A61;
+    padding: 9px;
+    border-width: 1px;
+    background-color: #91BAE6;
+    font-size: 10pt;
+}
+
+.navigation_innen {
+    border: thin solid #404A61;
+    padding: 9px;
+    border-width: 1px;
+    background-color: #75A1DD;
+}
+
+td.rand_r {
+    border: thin solid #404A61;
+    padding: 9px;
+    border-width: 1px;
+    border-right-width: 0px;
+    background-color: #91BAE6;
+}
+
+td.rand_r_r {
+    border: thin solid #404A61;
+    padding: 0px;
+    border-width: 1px;
+    border-left-width: 0px;
+    background-color: #91BAE6;
+}
+
+td.bottom_o {
+    border: thin solid #404A61;
+    padding: 5px;
+    border-width: 1px;
+    border-bottom-width: 0px;
+    background-color: #91BAE6;
+    text-align: center;
+}
+
+td.bottom_u {
+    border: thin solid #404A61;
+    padding: 0px;
+    border-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    background-color: #91BAE6;
+}
+
+div.nav {
+    border: 1px solid #404A61;
+    height: 15px;
+    width: 80px;
+    font-size: 10pt;
+    text-align: center;
+    background-image: url("/../images/aqua/button_bg.png");
+    background-repeat: repeat;
+}
+
+.input {
+    border: 1px solid #404A61;
+    font-size: 8pt;
+    border-width: 1px;
+    background-color: #75A1DD;
+    color: #404A61;
+    font-family: Tahoma;
+}
+
+.input2 {
+    border: 1px solid #404A61;
+    font-size: 8pt;
+    border-width: 1px;
+    background-color: #91BAE6;
+    color: #404A61;
+    font-family: Tahoma;
+}
+
+.inhalt {
+    border: thin solid #404A61;
+    padding: 9px;
+    border-width: 1px;
+    background-color: #91BAE6;
+    font-size: 8pt;
+}
+
+.element {
+    border: thin solid #404A61;
+    padding: 3px;
+    border-width: 1px;
+    background-color: #75A1DD;
+}
+
+.element2 {
+    border: thin solid #404A61;
+    padding: 3px;
+    border-width: 1px;
+    background-color: #91BAE6;
+}
+
+.seite_bef {
+    color: #404A61;
+}
+
+.grau {
+    color: #808080;
+}
+
+.Gruen {
+    color: #008000;
+}
+
+.Rot {
+    color: #FF0000;
+}
+
+a.home:link {
+    color: #404A61;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.home:visited {
+    color: #404A61;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.home:hover {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a:link {
+    color: #404A61;
+    text-decoration: none;
+}
+
+#a:visited {
+    color: #404A61;
+    text-decoration: none;
+}
+
+#a:hover {
+    color: #404A61;
+    text-decoration: none;
+}
+
+a.staff:link {
+    color: #404A61;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.staff:visited {
+    color: #404A61;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a.staff:hover {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.nav:link {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.nav:visited {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.nav:hover {
+    color: #505974;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.quick:link {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.quick:visited {
+    color: #404A61;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a.quick:hover {
+    color: #A4ACC1;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+font.staff {
+    border: thin solid #404A61;
+    padding: 0px;
+    border-width: 1px;
+    background-color: #91BAE6;
+}

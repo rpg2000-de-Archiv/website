@@ -30,3 +30,22 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+function anz(url,name,breite,hoehe) {
+    window.open(url,name,'width='+breite+',height='+hoehe+', left=20, top=10, scrollbars=no,status=no,resizable=yes,hotkeys=no,depend=yes');
+}
+
+function setcode(Zeichen) {
+    document.gb.inhalt_gb.value =
+        document.gb.inhalt_gb.value + Zeichen;
+}
+
+function einblenden(elementname)
+{
+    document.getElementById(elementname).style.display='block';
+}
+
+function ausblenden(elementname)
+{
+    document.getElementById(elementname).style.display='none';
+}
