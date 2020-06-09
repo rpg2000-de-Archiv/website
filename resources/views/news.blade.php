@@ -47,7 +47,7 @@
                                 <b>{{ \Carbon\Carbon::parse($t->orig_date)->format('d.m.Y') }}, <a name="n1">{{ $t->title }}</a> - <a
                                         href="{{ $t->author->contact }}" class="home">{{ $t->author->username }}</a></b>
                             </p>
-                            {{ $t->content }}
+                            {!! $t->content !!}
                         </td>
                     </tr>
                 </table>
