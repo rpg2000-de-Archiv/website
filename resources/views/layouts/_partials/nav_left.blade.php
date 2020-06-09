@@ -2,9 +2,9 @@
     <div align="center">
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="designs/Blau/pics/box_rm2k.png" width="60" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="images/aqua/box_rm2k.png" width="60" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -20,10 +20,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="designs/Blau/pics/box_hilfe.png" width="60" height="10" border="0" alt="">
+                <td><img src="images/aqua/box_hilfe.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="designs/Blau/pics/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -38,10 +38,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="designs/Blau/pics/box_spiele.png" width="60" height="10" border="0" alt="">
+                <td><img src="images/aqua/box_spiele.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="designs/Blau/pics/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -57,10 +57,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="designs/Blau/pics/box_material.png" width="60" height="10" border="0" alt="">
+                <td><img src="images/aqua/box_material.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="designs/Blau/pics/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -84,10 +84,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="designs/Blau/pics/box_toplist.png" width="60" height="10" border="0" alt="">
+                <td><img src="images/aqua/box_toplist.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="designs/Blau/pics/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="designs/Blau/pics/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
