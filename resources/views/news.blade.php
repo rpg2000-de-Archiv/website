@@ -8,10 +8,10 @@
                                                                    alt="RSS Newsfeeds (Updates)"></a></div>
             <table width="412" cellspacing="0" cellpadding="0">
                 <tr valign="bottom">
-                    <td><img src="images/aqua/box_content.png" width="60" height="10" border="0" alt="">
+                    <td><img src="./images/aqua/box_content.png" width="60" height="10" border="0" alt="">
                     </td>
-                    <td><img src="images/aqua/bg_box.png" width="346" height="10" border="0" alt=""></td>
-                    <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                    <td><img src="./images/aqua/bg_box.png" width="346" height="10" border="0" alt=""></td>
+                    <td><img src="./images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                     </td>
                 </tr>
                 <tr>

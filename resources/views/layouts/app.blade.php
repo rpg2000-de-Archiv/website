@@ -17,7 +17,7 @@
             <td colspan="5" class="oben" height="6" width="100%">
                 <div align="right" style="font-size:4px">&nbsp;</div>
             </td>
-            <td class="rechts" width="6"><img src="images/aqua/ecke_o_r.png" width="6" height="6" border="0" alt="">
+            <td class="rechts" width="6"><img src="/images/aqua/ecke_o_r.png" width="6" height="6" border="0" alt="">
             </td>
         </tr>
         <tr>
@@ -28,15 +28,15 @@
                             <div style="float:left; width:400px;">
                                 <table cellspacing="0" cellpadding="0">
                                     <tr valign="bottom">
-                                        <td><img src="images/aqua/box_rpg2000.png" width="60" height="10" border="0"
+                                        <td><img src="/images/aqua/box_rpg2000.png" width="60" height="10" border="0"
                                                  alt=""></td>
-                                        <td><img src="images/aqua/bg_box.png" width="236" height="10" border="0" alt="">
+                                        <td><img src="/images/aqua/bg_box.png" width="236" height="10" border="0" alt="">
                                         </td>
-                                        <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0"
+                                        <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0"
                                                  alt=""></td>
                                     </tr>
                                     <tr>
-                                        <td colspan="3" class="komplett"><img src="images/aqua/logo.png" width="300"
+                                        <td colspan="3" class="komplett"><img src="/images/aqua/logo.png" width="300"
                                                                               height="60" border="0" alt=""></td>
                                     </tr>
                                 </table>

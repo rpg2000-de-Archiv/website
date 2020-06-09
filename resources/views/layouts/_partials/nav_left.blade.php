@@ -2,17 +2,17 @@
     <div align="center">
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="images/aqua/box_rm2k.png" width="60" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="/images/aqua/box_rm2k.png" width="60" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
                 <td colspan="3" class="navigation_innen">
-                    <a href="index70d6.html?inhalt=rpgmaker" class="nav">RPG-Maker 2k</a><br>
-                    <a href="indexf4e6.html?inhalt=rpgmaker2k3" class="nav">RPG-Maker 2k3</a><br>
-                    <a href="indexb873.html?inhalt=rpgmakerxp" class="nav">RPG-Maker-XP</a><br>
-                    <a href="indexf73d.html?inhalt=rpgmakertools2" class="nav">RPG-Maker Tools</a><br>
+                    <a href="/page/rpgmaker" class="nav">RPG-Maker 2k</a><br>
+                    <a href="/page/rpgmaker2k3" class="nav">RPG-Maker 2k3</a><br>
+                    <a href="/page/rpgmakerxp" class="nav">RPG-Maker-XP</a><br>
+                    <a href="#rpgmakertools" class="nav">RPG-Maker Tools</a><br>
                     <a href="indexb67c.html?inhalt=contest" class="nav">Contests</a><br>
                     <a href="index4008.html?inhalt=links2" class="nav">Links</a></td>
             </tr>
@@ -20,10 +20,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="images/aqua/box_hilfe.png" width="60" height="10" border="0" alt="">
+                <td><img src="/images/aqua/box_hilfe.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="/images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -38,10 +38,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="images/aqua/box_spiele.png" width="60" height="10" border="0" alt="">
+                <td><img src="/images/aqua/box_spiele.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="/images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -57,10 +57,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="images/aqua/box_material.png" width="60" height="10" border="0" alt="">
+                <td><img src="/images/aqua/box_material.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="/images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -84,10 +84,10 @@
         <br>
         <table cellspacing="0" cellpadding="0">
             <tr valign="bottom">
-                <td><img src="images/aqua/box_toplist.png" width="60" height="10" border="0" alt="">
+                <td><img src="/images/aqua/box_toplist.png" width="60" height="10" border="0" alt="">
                 </td>
-                <td><img src="images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
-                <td><img src="images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
+                <td><img src="/images/aqua/bg_box.png" width="66" height="10" border="0" alt=""></td>
+                <td><img src="/images/aqua/box_ecke_o_r.png" width="6" height="5" border="0" alt="">
                 </td>
             </tr>
             <tr>
@@ -108,19 +108,19 @@
                         </p>
                         <p>1 User(s) online</p>
                         <a href="http://charas-project.net/index.php?lang=de" target="nocius">
-                            <img src="images/toplist/Charasknopp.gif" border="0">
+                            <img src="/images/toplist/Charasknopp.gif" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.final-fantasy-future.de/">
-                            <img src="images/toplist/fffuture.png" border="0">
+                            <img src="/images/toplist/fffuture.png" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.rpg2k-evolution.de/" target="_blank">
-                            <img src="images/toplist/evobanner.gif" border="0">
+                            <img src="/images/toplist/evobanner.gif" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.squareport.de/" target="http://www.squareport.de/">
-                            <img src="images/toplist/button3135fn.jpg" border="0">
+                            <img src="/images/toplist/button3135fn.jpg" border="0">
                         </a>
                         <br><br>
                     </div>
