@@ -317,6 +317,27 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\Page
+ *
+ * @property int $id
+ * @property string $slug
+ * @property string $html
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page whereHtml($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page whereSlug($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Page whereUpdatedAt($value)
+ */
+	class Page extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\DataType
  *
  * @property int $id
@@ -721,6 +742,28 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\MenuItem whereUrl($value)
  */
 	class MenuItem extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class Page
+ *
+ * @property int $id
+ * @property string $slug
+ * @property string $html
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page whereHtml($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page whereSlug($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Page whereUpdatedAt($value)
+ */
+	class Page extends \Eloquent {}
 }
 
 namespace App\Models\Base{

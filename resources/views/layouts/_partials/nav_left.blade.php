@@ -108,19 +108,19 @@
                         </p>
                         <p>1 User(s) online</p>
                         <a href="http://charas-project.net/index.php?lang=de" target="nocius">
-                            <img src="pics/Charasknopp.gif" border="0">
+                            <img src="images/toplist/Charasknopp.gif" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.final-fantasy-future.de/">
-                            <img src="pics/fffuture.png" border="0">
+                            <img src="images/toplist/fffuture.png" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.rpg2k-evolution.de/" target="_blank">
-                            <img src="pics/evobanner.gif" border="0">
+                            <img src="images/toplist/evobanner.gif" border="0">
                         </a>
                         <br><br>
                         <a href="http://www.squareport.de/" target="http://www.squareport.de/">
-                            <img src="../squareport.de/Bilder/button3135fn.jpg" border="0">
+                            <img src="images/toplist/button3135fn.jpg" border="0">
                         </a>
                         <br><br>
                     </div>
