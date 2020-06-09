@@ -28,7 +28,7 @@
                     <td><a href="index1c0e.html?inhalt=staff2" class="quick">
                             <div class="nav">Staff</div>
                         </a></td>
-                    <td><a href="index80c0.html?inhalt=impressum" class="quick">
+                    <td><a href="/page/impressum" class="quick">
                             <div class="nav">Impressum & Datenschutz</div>
                         </a></td>
                 </tr>
