@@ -138,6 +138,27 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\Rightnav
+ *
+ * @property int $id
+ * @property string $route
+ * @property string $content
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav whereContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav whereRoute($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rightnav whereUpdatedAt($value)
+ */
+	class Rightnav extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\DataRow
  *
  * @property int $id
@@ -557,6 +578,28 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\PermissionRole whereRoleId($value)
  */
 	class PermissionRole extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class Rightnav
+ *
+ * @property int $id
+ * @property string $route
+ * @property string $content
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereContent($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereRoute($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereUpdatedAt($value)
+ */
+	class Rightnav extends \Eloquent {}
 }
 
 namespace App\Models\Base{
