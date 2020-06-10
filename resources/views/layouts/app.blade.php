@@ -96,7 +96,7 @@
             <td class="bottom_u" colspan="5" height="6">
                 <div align="right" style="font-size:4px">&nbsp;</div>
             </td>
-            <td><img src="designs/Blau/pics/ecke_u_r.png" width="6" height="6" border="0" alt=""></td>
+            <td><img src="/images/aqua/ecke_u_r.png" width="6" height="6" border="0" alt=""></td>
         </tr>
         <!-- /Bottom -->
     </table>

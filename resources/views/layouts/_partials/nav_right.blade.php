@@ -114,4 +114,35 @@
         ausblenden('sn');
     </script><!--Skyscraper TAG-->
     <div id="5930610"></div>
+@else
+    Debug: <br>
+    {{ Request::getPathInfo() }}
+    <table width="156" cellspacing="0" cellpadding="0">
+        <tbody>
+        <tr valign="bottom">
+            <td><img src="/images/aqua/box_hinweis.png" alt="" width="60" height="10" border="0"></td>
+            <td><img src="/images/aqua/bg_box.png" alt="" width="96" height="10" border="0"></td>
+            <td><img src="/images/aqua/box_ecke_o_r.png" alt="" width="6" height="5" border="0"></td>
+        </tr>
+        <tr>
+            <td colspan="3" class="navigation_innen">
+                <div align="center"><a href="javascript:einblenden('rand');" class="home">Zeige Beschreibung</a></div>
+                <div id="rand" style="display: block;">
+                    <hr>
+                    {{-- Anfang des Inhalts --}}
+
+                    {!! @\App\Models\Rightnav::whereRoute(Request::getPathInfo())->first()->content !!}
+
+                    {{-- Ende des Inhalts --}}
+                    <hr>
+                    <div align="center"><a class="home" href="javascript:ausblenden('rand');">Verstecke Beschreibung</a>
+                    </div>
+                    <script type="text/javascript">
+                        ausblenden('rand');
+                    </script>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
 @endif

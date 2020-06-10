@@ -19,7 +19,7 @@
                         <p align="justify">Hier dreht sich alles um den RPG-Maker 2000 von Yoji Ojima. Der
                             RPG-Maker 2000 ist ein Tool, mit dem du dir dein eigenes kleines Rollenspiel
                             erstellen kannst. Du findest hier alles, was du dazu brauchst! Eine gr&ouml;&szlig;ere
-                            Beschreibung findest du <a href="index70d6.html?inhalt=rpgmaker" class="home"><b>hier</b></a>.<br>
+                            Beschreibung findest du <a href="/page/rpgmaker" class="home"><b>hier</b></a>.<br>
                             Du hast den Maker, wei&szlig;t aber nicht weiter? F&uuml;r alle die neu sind gibts
                             den <a href="indexf888.html?inhalt=kurs2" class="home"><b>Rpg-Maker Kurs</b></a>, zu
                             weiteren Fragen wendet euch doch bitte ans <a href="http://rpg2k.foren.4players.de/"
