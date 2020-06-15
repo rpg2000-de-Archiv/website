@@ -338,6 +338,31 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\Rpgmakertool
+ *
+ * @property int $id
+ * @property string $filepath
+ * @property string $filename
+ * @property string $fileversion
+ * @property string $filedescription
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereFiledescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereFilename($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereFilepath($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereFileversion($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Rpgmakertool whereUpdatedAt($value)
+ */
+	class Rpgmakertool extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\Page
  *
  * @property int $id
@@ -785,6 +810,32 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\MenuItem whereUrl($value)
  */
 	class MenuItem extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class Rpgmakertool
+ *
+ * @property int $id
+ * @property string $filepath
+ * @property string $filename
+ * @property string $fileversion
+ * @property string $filedescription
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereFiledescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereFilename($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereFilepath($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereFileversion($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereUpdatedAt($value)
+ */
+	class Rpgmakertool extends \Eloquent {}
 }
 
 namespace App\Models\Base{

@@ -12,9 +12,9 @@
                     <a href="/page/rpgmaker" class="nav">RPG-Maker 2k</a><br>
                     <a href="/page/rpgmaker2k3" class="nav">RPG-Maker 2k3</a><br>
                     <a href="/page/rpgmakerxp" class="nav">RPG-Maker-XP</a><br>
-                    <a href="#rpgmakertools" class="nav">RPG-Maker Tools</a><br>
-                    <a href="indexb67c.html?inhalt=contest" class="nav">Contests</a><br>
-                    <a href="index4008.html?inhalt=links2" class="nav">Links</a></td>
+                    <a href="/rpgmakertools" class="nav">RPG-Maker Tools</a><br>
+                    <a href="/contest" class="nav">Contests</a><br>
+                    <a href="/links" class="nav">Links</a></td>
             </tr>
         </table>
         <br>
@@ -27,10 +27,10 @@
             <tr>
                 <td colspan="3" class="navigation_innen">
                     <a href="techwiki/index.html" class="nav">TechWiki</a><br>
-                    <a href="indexf888.html?inhalt=kurs2" class="nav">Rm2k Kurs</a><br>
-                    <a href="index1632.html?inhalt=tuts2" class="nav">Tutorials</a><br>
-                    <a href="indexb20a.html?inhalt=Scripts2" class="nav">Skripts</a><br>
-                    <a href="index5299.html?inhalt=allfaq2" class="nav">Allgemeines FAQ</a></td>
+                    <a href="/kurs" class="nav">Rm2k Kurs</a><br>
+                    <a href="/tuts" class="nav">Tutorials</a><br>
+                    <a href="/scripts" class="nav">Skripts</a><br>
+                    <a href="/faq" class="nav">Allgemeines FAQ</a></td>
             </tr>
         </table>
         <br>
@@ -44,12 +44,12 @@
             </tr>
             <tr>
                 <td colspan="3" class="navigation_innen">
-                    <a href="indexc2df.html?inhalt=spiele2" class="nav">Gamedatenbank</a><br>
-                    <a href="indexfabc.html?inhalt=projekte" class="nav">Betreute Projekte</a><br>
-                    <a href="index7559.html?inhalt=toplist" class="nav">Toplist</a><br>
+                    <a href="/spiele" class="nav">Gamedatenbank</a><br>
+                    <a href="/projekte" class="nav">Betreute Projekte</a><br>
+                    <a href="/toplist" class="nav">Toplist</a><br>
                     <span style="color:grey">Dein RPG</span><br>
-                    <a href="indexdf24.html?inhalt=spielenorm" class="nav">Spielenorm</a><br>
-                    <a href="indexae45.html?inhalt=bilder2" class="nav">Bildergalerie</a></td>
+                    <a href="/page/spielenorm" class="nav">Spielenorm</a><br>
+                    <a href="/bilder" class="nav">Bildergalerie</a></td>
             </tr>
         </table>
         <br>
