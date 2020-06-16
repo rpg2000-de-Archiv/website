@@ -17,6 +17,9 @@ Route::get('/', 'HomeController@index')->name('home');
 
 Route::get('/rpgmakertools/{orderby?}/{direction?}', 'RPGMakerToolsController@index');
 
+Route::get('/contests/{orderby?}/{direction?}', 'ContestController@index');
+Route::get('/contest/{id}', 'ContestController@show');
+
 Route::get('/page/{slug}', 'PageController@index');
 
 //Auth::routes();

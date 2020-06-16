@@ -13,7 +13,7 @@
                     <a href="/page/rpgmaker2k3" class="nav">RPG-Maker 2k3</a><br>
                     <a href="/page/rpgmakerxp" class="nav">RPG-Maker-XP</a><br>
                     <a href="/rpgmakertools" class="nav">RPG-Maker Tools</a><br>
-                    <a href="/contest" class="nav">Contests</a><br>
+                    <a href="/contests" class="nav">Contests</a><br>
                     <a href="/links" class="nav">Links</a></td>
             </tr>
         </table>

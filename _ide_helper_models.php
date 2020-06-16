@@ -159,6 +159,43 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\ContentSubmission
+ *
+ * @property int $id
+ * @property int $contest_id
+ * @property int $place
+ * @property string $username
+ * @property string|null $submission1title
+ * @property string|null $submission1url
+ * @property string|null $submission2title
+ * @property string|null $submission2url
+ * @property string|null $submission3title
+ * @property string|null $submission3url
+ * @property int|null $points
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereContestId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission wherePlace($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission wherePoints($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission1title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission1url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission2title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission2url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission3title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereSubmission3url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\ContentSubmission whereUsername($value)
+ */
+	class ContentSubmission extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\DataRow
  *
  * @property int $id
@@ -494,6 +531,41 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\Contest
+ *
+ * @property int $id
+ * @property string $title
+ * @property string $status
+ * @property string $usercount
+ * @property string $shortdescription
+ * @property string $rules
+ * @property string $notes
+ * @property string $submission_notes
+ * @property string $reward
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property string $rules_image
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereNotes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereReward($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereRules($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereRulesImage($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereShortdescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereStatus($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereSubmissionNotes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereTitle($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Contest whereUsercount($value)
+ */
+	class Contest extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\FailedJob
  *
  * @property int $id
@@ -625,6 +697,44 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rightnav whereUpdatedAt($value)
  */
 	class Rightnav extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class ContentSubmission
+ *
+ * @property int $id
+ * @property int $contest_id
+ * @property int $place
+ * @property string $username
+ * @property string|null $submission1title
+ * @property string|null $submission1url
+ * @property string|null $submission2title
+ * @property string|null $submission2url
+ * @property string|null $submission3title
+ * @property string|null $submission3url
+ * @property int|null $points
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereContestId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission wherePlace($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission wherePoints($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission1title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission1url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission2title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission2url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission3title($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereSubmission3url($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\ContentSubmission whereUsername($value)
+ */
+	class ContentSubmission extends \Eloquent {}
 }
 
 namespace App\Models\Base{
@@ -972,6 +1082,42 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Permission whereUpdatedAt($value)
  */
 	class Permission extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class Contest
+ *
+ * @property int $id
+ * @property string $title
+ * @property string $status
+ * @property string $usercount
+ * @property string $shortdescription
+ * @property string $rules
+ * @property string $notes
+ * @property string $submission_notes
+ * @property string $reward
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string $rules_image
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereNotes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereReward($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereRules($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereRulesImage($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereShortdescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereStatus($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereSubmissionNotes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereTitle($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Contest whereUsercount($value)
+ */
+	class Contest extends \Eloquent {}
 }
 
 namespace App\Models\Base{
