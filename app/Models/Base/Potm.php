@@ -10,27 +10,26 @@ use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class News
+ * Class Potm
  * 
  * @property int $id
- * @property Carbon $orig_date
- * @property string $title
- * @property string $content
- * @property int $author_id
+ * @property Carbon $potm_date
+ * @property string $description
+ * @property int $filename
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  *
  * @package App\Models\Base
  */
-class News extends Model
+class Potm extends Model
 {
-	protected $table = 'news';
+	protected $table = 'potms';
 
 	protected $casts = [
-		'author_id' => 'int'
+		'filename' => 'int'
 	];
 
 	protected $dates = [
-		'orig_date'
+		'potm_date'
 	];
 }

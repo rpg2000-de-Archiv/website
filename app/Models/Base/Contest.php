@@ -11,7 +11,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Contest
- *
+ * 
  * @property int $id
  * @property string $title
  * @property string $status
@@ -30,5 +30,4 @@ use Illuminate\Database\Eloquent\Model;
 class Contest extends Model
 {
 	protected $table = 'contests';
-
 }

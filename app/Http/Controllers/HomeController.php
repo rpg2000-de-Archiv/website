@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Hauptnews;
 use App\Models\News;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $content = News::get()->sortByDesc('orig_date');
+        $content = Hauptnews::get()->sortByDesc('date');
         return view('news', [
             'content' => $content,
         ]);

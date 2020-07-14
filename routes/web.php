@@ -20,6 +20,9 @@ Route::get('/rpgmakertools/{orderby?}/{direction?}', 'RPGMakerToolsController@in
 Route::get('/contests/{orderby?}/{direction?}', 'ContestController@index');
 Route::get('/contest/{id}', 'ContestController@show');
 
+Route::get('/potms', 'POTMController@index');
+Route::get('/potm/{id}', 'POTMController@show');
+
 Route::get('/page/{slug}', 'PageController@index');
 
 //Auth::routes();

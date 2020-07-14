@@ -400,6 +400,29 @@ namespace App\Models{
 
 namespace App\Models{
 /**
+ * App\Models\Potm
+ *
+ * @property int $id
+ * @property \Illuminate\Support\Carbon $potm_date
+ * @property string $description
+ * @property int $filename
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm whereFilename($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm wherePotmDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Potm whereUpdatedAt($value)
+ */
+	class Potm extends \Eloquent {}
+}
+
+namespace App\Models{
+/**
  * App\Models\Page
  *
  * @property int $id
@@ -946,6 +969,30 @@ namespace App\Models\Base{
  * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Rpgmakertool whereUpdatedAt($value)
  */
 	class Rpgmakertool extends \Eloquent {}
+}
+
+namespace App\Models\Base{
+/**
+ * Class Potm
+ *
+ * @property int $id
+ * @property Carbon $potm_date
+ * @property string $description
+ * @property int $filename
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @package App\Models\Base
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm whereFilename($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm wherePotmDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Base\Potm whereUpdatedAt($value)
+ */
+	class Potm extends \Eloquent {}
 }
 
 namespace App\Models\Base{

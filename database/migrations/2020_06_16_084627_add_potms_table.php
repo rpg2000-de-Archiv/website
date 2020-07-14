@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddNewsTable extends Migration
+class AddPotmsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,11 @@ class AddNewsTable extends Migration
      */
     public function up()
     {
-        Schema::create('news', function (Blueprint $table) {
+        Schema::create('potms', function (Blueprint $table) {
             $table->id();
-            $table->date('orig_date');
-            $table->text('title');
-            $table->longText('content');
-            $table->integer('author_id');
+            $table->date('potm_date');
+            $table->text('description');
+            $table->integer('filename');
             $table->timestamps();
         });
     }
@@ -30,6 +29,6 @@ class AddNewsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('news');
+        Schema::dropIfExists('potms');
     }
 }
