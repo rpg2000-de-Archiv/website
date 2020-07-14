@@ -45,7 +45,7 @@
                         <td colspan="3" class="navigation_innen">
                             <p>
                                 <b>{{ \Carbon\Carbon::parse($t->date)->format('d.m.Y') }}, <a name="n1">{{ $t->titel }}</a> - <a
-                                        href="mailto:{{ $t->email }}" class="home">{{ $t->author }}</a></b>
+                                        href="mailto:{{ $t->email }}" class="home">{{ $t->autor }}</a></b>
                             </p>
                             {!! $t->inhalt !!}
                         </td>
