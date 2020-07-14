@@ -44,10 +44,10 @@
                     <tr>
                         <td colspan="3" class="navigation_innen">
                             <p>
-                                <b>{{ \Carbon\Carbon::parse($t->orig_date)->format('d.m.Y') }}, <a name="n1">{{ $t->title }}</a> - <a
-                                        href="{{ $t->author->contact }}" class="home">{{ $t->author->username }}</a></b>
+                                <b>{{ \Carbon\Carbon::parse($t->date)->format('d.m.Y') }}, <a name="n1">{{ $t->titel }}</a> - <a
+                                        href="mailto:{{ $t->email }}" class="home">{{ $t->author }}</a></b>
                             </p>
-                            {!! $t->content !!}
+                            {!! $t->inhalt !!}
                         </td>
                     </tr>
                 </table>
